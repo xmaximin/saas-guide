@@ -13,12 +13,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'rails_12factor', group: :production
 gem 'devise'
+gem 'awesome_print'
 
 group :development, :test do
   gem 'byebug'
   gem 'sqlite3', '~> 1.3.11'
   gem 'mailcatcher'
-  gem 'awesome_print'
+ 
 end
 
 group :development do
