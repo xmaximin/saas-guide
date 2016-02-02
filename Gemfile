@@ -24,3 +24,4 @@ group :development do
   gem 'spring'
 end
 
+gem 'sqlite3', '~> 1.3.11'
