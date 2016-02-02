@@ -38,4 +38,14 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  #
+  #
+  config.secret_key = '68ec0ea02a38a3261ed16d1ebec6de820daabfc4082e8c7938750ad77ea20393340ca1b314039e6af75503476dabe6a1c2c3b31c54c46b2fd4c1ab784bbe3aae'
+
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
+
+
 end
