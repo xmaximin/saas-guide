@@ -28,3 +28,10 @@ group :development do
 end
 
 gem 'pg', '~> 0.15'
+
+#For background process
+gem 'sidekiq'
+#For sending async email
+gem "devise-async"
+
+gem 'puma'
