@@ -11,7 +11,7 @@ if Rails.env.development?
     enable_starttls_auto: true
   }
 
-  else if Rails.env.production?
+  elsif Rails.env.production?
 
   ActionMailer::Base.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = {
