@@ -16,11 +16,14 @@ gem 'rails_12factor', group: :production
 gem 'devise'
 gem 'awesome_print'
 
+# Simple form
+gem 'simple_form'
+
 group :development, :test do
   gem 'byebug'
   gem 'sqlite3', '~> 1.3.11'
   gem 'mailcatcher'
- 
+
 end
 
 group :development do

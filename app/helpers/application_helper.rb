@@ -5,14 +5,13 @@ module ApplicationHelper
     when "success"
       "alert-success" #Green
     when "error"
-      "alert-danger"
+      "alert-danger" #Red
     when "alert"
-      "alert-warning"
+      "alert-warning" #Yellow
     when "notice"
-      "alert-info"
+      "alert-info" #Blue
     else
       flash_type.to_s
     end
-
   end
 end

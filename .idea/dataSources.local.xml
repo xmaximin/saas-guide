@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails saas-guide: test" uuid="1549f92d-5836-4e8b-b414-25a683f043b1">
+      <user-name>saas</user-name>
+      <user-password>dfc2dfcfdfd8dfcfdfcbdfc4dfcedfc4dfc5dfdd</user-password>
+      <schema-pattern>db_saas_guide_test.pg_catalog db_saas_guide_test.public</schema-pattern>
+      <default-schemas>db_saas_guide_test.public</default-schemas>
+    </data-source>
+    <data-source name="Rails saas-guide: production" uuid="1ce64aee-1ed7-445d-83a8-8b16789fc870">
+      <user-name>saas</user-name>
+      <user-password>dfc2dfcfdfd8dfcfdfcbdfc4dfcedfc4dfc5dfdd</user-password>
+      <schema-pattern>db_saas_guide.pg_catalog db_saas_guide.public</schema-pattern>
+      <default-schemas>db_saas_guide.public</default-schemas>
+    </data-source>
+    <data-source name="Rails saas-guide: development" uuid="f621b14d-d8d6-454c-b714-0199ec620fad">
+      <user-name>saas</user-name>
+      <user-password>dfc2dfcfdfd8dfcfdfcbdfc4dfcedfc4dfc5dfdd</user-password>
+      <schema-pattern>db_saas_guide.pg_catalog db_saas_guide.public</schema-pattern>
+      <default-schemas>db_saas_guide.public</default-schemas>
+    </data-source>
+  </component>
+</project>
